@@ -1,11 +1,11 @@
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
+import Quienes from "./quienes";
+import Servicios from "./servicios";
 
 export default function home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Quienes />
+      <Servicios />
     </>
   );
 }

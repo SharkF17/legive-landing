@@ -25,18 +25,18 @@ function Navbar() {
       >
         <ul className="flex flex-col justify-center gap-y-10 text-white text-3xl">
           <li className="hover:translate-y-[-5px] duration-500">
-            <a href="#" className="hover:textShadow">
+            <a href="/" className="hover:textShadow">
               Inicio
             </a>
           </li>
           <li className="hover:translate-y-[-5px] duration-500">
-            <a href="#" className="hover:textShadow">
+            <a href="/quienes" className="hover:textShadow">
               Quienes somos
             </a>
           </li>
           <li className="hover:translate-y-[-5px] duration-500">
-            <a href="#" className="hover:textShadow">
-              Servicios
+            <a href="/servicios" className="hover:textShadow">
+              Nuestros Servicios
             </a>
           </li>
           <li className="hover:translate-y-[-5px] duration-500">
