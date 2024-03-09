@@ -20,7 +20,7 @@ function Navbar() {
         <ion-icon name="menu-outline"></ion-icon>
       </div>
       <nav
-        className="bg-legiveblack grid fixed w-[0] h-[100vh] place-content-center overflow-hidden duration-150"
+        className="bg-legiveblack grid fixed w-[0] h-[100vh] place-content-center overflow-hidden duration-1000 text-nowrap"
         id="menu"
       >
         <ul className="flex flex-col justify-center gap-y-10 text-white text-3xl">
@@ -51,7 +51,7 @@ function Navbar() {
           </li>
         </ul>
         <div
-          className="absolute top-5 right-5 text-4xl text-legivegold cursor-pointer"
+          className="absolute top-5 right-5 text-4xl text-legivegold cursor-pointer duration-300 hover:rotate-90"
           onClick={() => Clse()}
         >
           <ion-icon name="close-outline"></ion-icon>
