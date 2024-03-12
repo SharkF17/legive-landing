@@ -23,7 +23,7 @@ function Navbar() {
         className="bg-legiveblack grid fixed w-[0] h-[100vh] place-content-center overflow-hidden duration-1000 text-nowrap"
         id="menu"
       >
-        <ul className="flex flex-col justify-center gap-y-10 text-white text-3xl">
+        <ul className="flex flex-col justify-center gap-y-10 text-white text-3xl overflow-hidden text-nowrap">
           <li className="hover:translate-y-[-5px] duration-500">
             <a href="/" className="hover:textShadow">
               Inicio
