@@ -6,4 +6,7 @@
 .textShadow {
   text-shadow: -2px 2px 2px red;
 }
+.textFlip {
+  transform:rotateY(180deg);
+}
 }
